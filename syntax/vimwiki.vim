@@ -485,6 +485,8 @@ call vimwiki#base#nested_syntax('tex',
       \ '\%([[:blank:][:punct:]].*\)\?',
       \ vimwiki#vars#get_syntaxlocal('rxMathEnd'), 'VimwikiMath')
 
+call vimwiki#base#nested_syntax('tex', '\$', '\$', 'VimwikiMath')
+
 
 syntax spell toplevel
 
